@@ -1,0 +1,4 @@
+com/evolve/dao/AuthUserRepository.class
+com/evolve/model/User.class
+com/evolve/controller/AuthRepositoryController.class
+com/evolve/authrepositorymain/AuthRepositoryWebApplication.class
