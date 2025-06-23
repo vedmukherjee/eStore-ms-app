@@ -1,13 +1,10 @@
 package com.evolve.dao;
 
-import java.util.ArrayList;
-
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.evolve.model.User;
+import com.evolve.domain.Usr;
 
 @Repository
-public interface AuthUserRepository extends CrudRepository<User, Long> {
-    ArrayList<User> findAllUser();
+public interface AuthUserRepository extends JpaRepository<Usr, Long> {
 }

@@ -1,6 +1,6 @@
 package com.evolve.service;
 
-import com.evolve.domain.User;
+import com.evolve.domain.Usr;
 
 import org.springframework.stereotype.Service;
 
@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 public class AuthService {
     /*@Autowired
     private UserRepository userRepository;*/
-    public User getUserById(Long id) {
+    public Usr getUserById(Long id) {
         return null;//userRepository.findById(id).orElse(null);
     }
-    public User save(User user) {
+    public Usr save(Usr user) {
         return null;//userRepository.save(user);
     }
 }

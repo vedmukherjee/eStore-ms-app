@@ -1,1 +1,5 @@
-com/evolve/domain/User.class
+com/evolve/domain/Usr.class
+com/evolve/domain/UserInfo$UserInfoBuilder.class
+com/evolve/domain/UserInfo.class
+com/evolve/domain/AuthRequest.class
+com/evolve/domain/Usr$UsrBuilder.class
